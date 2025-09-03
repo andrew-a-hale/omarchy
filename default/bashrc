@@ -1,7 +1,8 @@
 # All the default Omarchy aliases and functions
 # (don't mess with these directly, just overwrite them here!)
 source ~/.local/share/omarchy/default/bash/rc
-export PATH="$PATH:$HOME/omarchy/bin"
+export PATH="$PATH:$HOME/.local/share/omarchy/bin"
+export GPG_TTY=$(tty)
 
 # Add your own exports, aliases, and functions here.
 #
