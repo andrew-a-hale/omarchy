@@ -1,3 +1,4 @@
 #!/bin/bash
 
-exec setsid uwsm app -- $(xdg-settings get default-web-browser)
+# exec setsid uwsm app -- $(xdg-settings get default-web-browser) --profile-directory="$1"
+chromium --profile-directory="$1"
