@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Exit immediately if a command exits with a non-zero status
-set -eEx
+set -eE
 
 OMARCHY_PATH="$HOME/.local/share/omarchy"
 OMARCHY_INSTALL="$OMARCHY_PATH/install"
