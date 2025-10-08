@@ -2,7 +2,7 @@
 # This file is also used by the ISO builder when determining needs
 
 alacritty
-asdcontrol-git
+asdcontrol
 avahi
 bash-completion
 bat
