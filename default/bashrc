@@ -2,7 +2,9 @@
 # (don't mess with these directly, just overwrite them here!)
 source ~/.local/share/omarchy/default/bash/rc
 export PATH="$PATH:$HOME/.local/share/omarchy/bin"
+export PATH='/home/andy/.duckdb/cli/latest':$PATH
 export GPG_TTY=$(tty)
+export TERM=alacritty
 
 # Add your own exports, aliases, and functions here.
 #
